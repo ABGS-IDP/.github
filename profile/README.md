@@ -47,7 +47,7 @@ MongoDB este folosit ca bază de date NoSQL pentru persistența aplicației. Mon
 ### Conectivitate
 - Serviciile comunică între ele prin HTTP/REST.
 - JWT este transmis între servicii pentru autorizare.
-- DB Driver folosește MongoDB Java Driver pentru interacțiunea cu baza de date.
+- DB Driver folosește un client de Mongo pentru interacțiunea cu baza de date.
 - Toate serviciile sunt containerizate și orchestrate cu Kubernetes, fiecare având propriul `Deployment` și `Service`.
 
 ## Responsabilitățile membrilor echipei
